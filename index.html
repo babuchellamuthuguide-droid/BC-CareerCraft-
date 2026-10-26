@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Create a professional resume with BC CareerCraft. Build your resume, showcase your skills, and prepare for your next career opportunity.">
+  <title>BC CareerCraft | Free Resume Builder</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://bc-careercraft.netlify.app/">
+  <meta name="theme-color" content="#7857ff">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="CareerCraft">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BC CareerCraft">
+  <meta property="og:title" content="BC CareerCraft | Free Resume Builder">
+  <meta property="og:description" content="Build a professional resume in minutes. Free, no account needed, and your details stay in your browser.">
+  <meta property="og:url" content="https://bc-careercraft.netlify.app/">
+  <meta property="og:image" content="https://bc-careercraft.netlify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="BC CareerCraft: Build Your Resume. Shape Your Future.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BC CareerCraft | Free Resume Builder">
+  <meta name="twitter:description" content="Build a professional resume in minutes. Free, no account needed.">
+  <meta name="twitter:image" content="https://bc-careercraft.netlify.app/og-image.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a class="logo" href="#" aria-label="BC CareerCraft home">
+      <span class="logo-icon">BC</span>
+      <span>CareerCraft</span>
+    </a>
+
+    <nav id="mainNav" aria-label="Main">
+      <a href="#features">Features</a>
+      <a href="#builder">Resume Builder</a>
+      <a href="#about">About</a>
+    </nav>
+
+    <a href="#builder" class="nav-button">Build My Resume ↗</a>
+
+    <button type="button" class="menu-toggle" id="menuToggle"
+            aria-label="Toggle menu" aria-expanded="false" aria-controls="mainNav">
+      ☰
+    </button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <span class="badge">✦ YOUR CAREER, REIMAGINED</span>
+
+        <h1>
+          Build Your Resume.<br>
+          <span>Shape Your Future.</span>
+        </h1>
+
+        <p class="hero-description">
+          Create a professional resume in minutes.
+          Showcase your strengths and take the next step
+          toward your dream career.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#builder" class="primary-button">Create My Resume →</a>
+          <a href="#features" class="secondary-button">Explore Features</a>
+        </div>
+
+        <div class="hero-note">
+          ✓ Free to start &nbsp; ✓ No account required
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+
+        <div class="resume-card">
+          <div class="resume-top">
+            <div class="avatar">BC</div>
+            <div>
+              <h3>Your Next Chapter</h3>
+              <p>Professional Resume Preview</p>
+            </div>
+          </div>
+
+          <div class="resume-line long"></div>
+          <div class="resume-line medium"></div>
+
+          <div class="resume-section">
+            <span class="resume-label">PROFESSIONAL SUMMARY</span>
+            <div class="resume-line long"></div>
+            <div class="resume-line medium"></div>
+          </div>
+
+          <div class="resume-section">
+            <span class="resume-label">SKILLS & EXPERTISE</span>
+            <div class="skill-list">
+              <span>Communication</span>
+              <span>Leadership</span>
+              <span>Problem Solving</span>
+            </div>
+          </div>
+
+          <div class="resume-section">
+            <span class="resume-label">CAREER EXPERIENCE</span>
+            <div class="resume-line long"></div>
+            <div class="resume-line short"></div>
+          </div>
+
+          <div class="resume-footer">YOUR FUTURE STARTS HERE ✦</div>
+        </div>
+
+        <div class="floating-tag">✦ Your next opportunity awaits</div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="section-heading">
+        <span class="badge">EVERYTHING YOU NEED</span>
+        <h2>Make your experience <span>stand out.</span></h2>
+        <p>Simple tools to help you present your best professional self.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon purple">✍️</div>
+          <h3>Easy Resume Builder</h3>
+          <p>Add your details and turn them into a structured, professional resume.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon blue">📄</div>
+          <h3>Professional Templates</h3>
+          <p>Present your qualifications in a clean and readable format.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon pink">🎯</div>
+          <h3>Career Ready</h3>
+          <p>Highlight your education, experience, skills, and career goals.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="builder-section" id="builder">
+      <div class="section-heading">
+        <span class="badge">LET'S GET STARTED</span>
+        <h2>Create your <span>professional resume.</span></h2>
+        <p>Enter your details below to generate your first resume. Your entries are saved in this browser as you type.</p>
+      </div>
+
+      <div class="builder-card">
+
+        <h3>Choose a Template</h3>
+        <div class="template-grid" id="templatePicker" role="group" aria-label="Resume template">
+
+          <button type="button" class="template-card active" data-template="modern" aria-pressed="true">
+            <div class="template-preview">
+              <div class="mini-header"></div>
+              <div class="mini-line long"></div>
+              <div class="mini-line medium"></div>
+              <div class="mini-heading"></div>
+              <div class="mini-line long"></div>
+              <div class="mini-line short"></div>
+            </div>
+            <span>Modern</span>
+            <small>Clean with a purple accent</small>
+          </button>
+
+          <button type="button" class="template-card" data-template="classic" aria-pressed="false">
+            <div class="template-preview classic-preview">
+              <div class="mini-header"></div>
+              <div class="mini-line long"></div>
+              <div class="mini-line medium"></div>
+              <div class="mini-heading"></div>
+              <div class="mini-line long"></div>
+              <div class="mini-line short"></div>
+            </div>
+            <span>Classic</span>
+            <small>Traditional serif, formal</small>
+          </button>
+
+          <button type="button" class="template-card" data-template="creative" aria-pressed="false">
+            <div class="template-preview creative-preview">
+              <div class="mini-sidebar"></div>
+              <div class="mini-content">
+                <div class="mini-header"></div>
+                <div class="mini-line long"></div>
+                <div class="mini-line medium"></div>
+                <div class="mini-heading"></div>
+                <div class="mini-line short"></div>
+              </div>
+            </div>
+            <span>Creative</span>
+            <small>Bold side accent</small>
+          </button>
+
+        </div>
+
+        <form id="resumeForm">
+          <h3>Personal Information</h3>
+
+          <div class="photo-field">
+            <div class="photo-preview" id="photoPreview" aria-hidden="true">No photo</div>
+            <div class="photo-controls">
+              <strong>Photo (optional)</strong>
+              <p class="field-hint">JPG, PNG or WebP. Saved as a square passport-size photo at the top right of your resume.</p>
+              <div class="photo-buttons">
+                <button type="button" id="photoButton" class="secondary-button">Upload photo</button>
+                <button type="button" id="removePhoto" class="secondary-button" hidden>Remove</button>
+              </div>
+              <input type="file" id="photoInput" accept="image/png,image/jpeg,image/webp" hidden>
+              <p class="field-hint photo-error" id="photoError" role="alert"></p>
+            </div>
+          </div>
+
+          <div class="photo-cropper" id="photoCropper" hidden>
+            <canvas id="cropCanvas" width="280" height="280" aria-label="Photo crop area. Drag to reposition."></canvas>
+            <div class="crop-controls">
+              <strong>Adjust your passport-size photo</strong>
+              <p class="field-hint">Your photo is saved as a square. Drag it to place your face inside the oval, and use the slider to zoom. A plain background and a straight-ahead look work best.</p>
+              <label for="cropZoom">Zoom</label>
+              <input type="range" id="cropZoom" min="1" max="3" step="0.01" value="1">
+              <div class="photo-buttons">
+                <button type="button" id="cropApply" class="primary-button">Use this photo</button>
+                <button type="button" id="cropCancel" class="secondary-button">Cancel</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <label>
+              Full Name *
+              <input type="text" id="fullName" placeholder="Enter your full name" required>
+            </label>
+
+            <label>
+              Target Job Role
+              <input type="text" id="jobTitle" list="jobRoleList" autocomplete="off" placeholder="Select or type a role">
+            </label>
+
+            <label>
+              Email Address
+              <input type="email" id="email" placeholder="you@example.com">
+            </label>
+
+            <label>
+              Phone Number
+              <input type="tel" id="phone" placeholder="Enter your phone number">
+            </label>
+
+            <label>
+              Location
+              <input type="text" id="location" placeholder="City, State">
+            </label>
+
+            <label>
+              LinkedIn Profile (optional)
+              <input type="text" id="linkedin" inputmode="url" autocomplete="off" placeholder="linkedin.com/in/your-name">
+              <span class="field-hint photo-error" id="linkedinError" role="alert"></span>
+            </label>
+
+          </div>
+
+          <div class="education-block">
+            <h3>Education</h3>
+            <p class="field-hint">Choose the level, then the degree and branch. For schools and colleges, start typing the name and pick from the list, or type your own if it isn't there. List your highest qualification first.</p>
+            <div id="educationEntries"></div>
+            <button type="button" class="secondary-button" id="addEducation">+ Add another degree / course (optional)</button>
+            <span class="field-hint photo-error" id="educationError" role="alert"></span>
+          </div>
+
+          <datalist id="jobRoleList"></datalist>
+          <datalist id="companyList"></datalist>
+          <datalist id="skillsList"></datalist>
+          <datalist id="expertiseList"></datalist>
+          <datalist id="certificationsList"></datalist>
+
+          <label class="full-label">
+            Professional Summary
+            <textarea id="summary" rows="4" maxlength="1500" placeholder="Briefly describe your strengths and career goals..."></textarea>
+          </label>
+
+          <div class="tag-field">
+            <label for="expertiseInput">Areas of Expertise</label>
+            <div class="tag-input-row">
+              <input type="text" id="expertiseInput" list="expertiseList" autocomplete="off" placeholder="Select or type, then press Add">
+              <button type="button" class="secondary-button" id="expertiseAdd">Add</button>
+            </div>
+            <ul class="tag-list" id="expertiseTags" aria-label="Selected areas of expertise"></ul>
+            <span class="field-hint">Add up to 12. Press Enter to add.</span>
+            <span class="field-hint photo-error" id="expertiseError" role="alert"></span>
+          </div>
+
+          <div class="experience-block">
+            <h3>Work Experience</h3>
+            <p class="field-hint">Add each company separately, with the years you worked there. If you are a fresher, leave this blank.</p>
+            <div id="experienceEntries"></div>
+            <button type="button" class="secondary-button" id="addExperience">+ Add company / job</button>
+            <span class="field-hint photo-error" id="experienceError" role="alert"></span>
+          </div>
+
+          <div class="tag-field">
+            <label for="skillsInput">Skills</label>
+            <div class="tag-input-row">
+              <input type="text" id="skillsInput" list="skillsList" autocomplete="off" placeholder="Select or type a skill, then press Add">
+              <button type="button" class="secondary-button" id="skillsAdd">Add</button>
+            </div>
+            <ul class="tag-list" id="skillsTags" aria-label="Selected skills"></ul>
+            <span class="field-hint">Add up to 20 tools, technical skills, soft skills or languages. Press Enter to add.</span>
+            <span class="field-hint photo-error" id="skillsError" role="alert"></span>
+          </div>
+
+          <div class="tag-field">
+            <label for="certificationsInput">Certifications</label>
+            <div class="tag-input-row">
+              <input type="text" id="certificationsInput" list="certificationsList" autocomplete="off" placeholder="Select or type, then press Add">
+              <button type="button" class="secondary-button" id="certificationsAdd">Add</button>
+            </div>
+            <ul class="tag-list" id="certificationsTags" aria-label="Selected certifications"></ul>
+            <span class="field-hint">Add up to 10. You can type your own, for example "Certificate name, Issuer, 2024".</span>
+            <span class="field-hint photo-error" id="certificationsError" role="alert"></span>
+          </div>
+
+          <label class="full-label">
+            Awards &amp; Recognition (optional)
+            <textarea id="awards" rows="4" maxlength="1500" placeholder="One per line, e.g. Employee of the Month, Company, 2025"></textarea>
+            <span class="field-hint">Awards, publications, scholarships, training or other achievements.</span>
+          </label>
+
+          <div class="form-actions">
+            <button type="submit" class="primary-button generate-button">
+              Generate My Resume →
+            </button>
+            <button type="button" id="clearForm" class="secondary-button">
+              Clear form
+            </button>
+          </div>
+          <p class="field-hint shared-hint">Using a shared or public computer? Click "Clear form" when you finish, so your details are removed from that browser.</p>
+        </form>
+
+        <div id="resumeOutput" class="resume-output" hidden>
+          <div class="output-heading">
+            <h3>Your Resume Preview</h3>
+            <button type="button" id="printResume" class="secondary-button">
+              Print / Save PDF
+            </button>
+          </div>
+          <div id="resumePreview" class="resume-paper template-modern"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="founder-card">
+
+        <span class="badge">THE STORY BEHIND THE BRAND</span>
+
+        <div class="founder-avatar">BC</div>
+
+        <p class="founder-eyebrow">MEET OUR FOUNDER</p>
+
+        <h2>Babu Chellamuthu</h2>
+
+        <p class="founder-role">
+          Founder & Creator of BC CareerCraft
+        </p>
+
+        <p class="founder-location">
+          📍 Neyveli, Tamil Nadu, India
+        </p>
+
+        <div class="founder-divider"></div>
+
+        <p class="founder-description">
+          Every career journey deserves a strong beginning.
+          BC CareerCraft was created with a vision to make
+          professional resume building simple, accessible,
+          and convenient for everyone.
+        </p>
+
+        <p class="founder-description">
+          Our goal is to help students, freshers, experienced
+          professionals, and career changers present their
+          qualifications confidently and prepare for new
+          opportunities.
+        </p>
+
+        <div class="founder-values">
+          <div>
+            <strong>Our Vision</strong>
+            <span>Make career preparation accessible.</span>
+          </div>
+
+          <div>
+            <strong>Our Mission</strong>
+            <span>Help people showcase their potential.</span>
+          </div>
+        </div>
+
+        <a href="#builder" class="primary-button">
+          Start Your Career Journey →
+        </a>
+
+        <p class="founder-signature">
+          Built with ambition. Designed for opportunity.
+        </p>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo footer-logo" href="#">
+      <span class="logo-icon">BC</span>
+      <span>CareerCraft</span>
+    </a>
+
+    <p>Build Your Resume. Shape Your Future.</p>
+
+    <details class="install-note" id="installNote">
+      <summary>Get the app</summary>
+      <div class="install-body">
+        <button type="button" id="installApp" class="primary-button" hidden>Install BC CareerCraft</button>
+        <ul>
+          <li><strong>Android (Chrome):</strong> tap the menu (three dots), then "Install app" or "Add to Home screen".</li>
+          <li><strong>iPhone (Safari):</strong> tap the Share button, then "Add to Home Screen".</li>
+          <li><strong>Windows or Mac (Chrome or Edge):</strong> click the install icon at the right end of the address bar.</li>
+        </ul>
+        <p>After installing, it opens like an app, and works offline once it has loaded.</p>
+      </div>
+    </details>
+
+    <div class="share-block" id="shareBlock">
+      <span class="share-title">Share BC CareerCraft with friends</span>
+      <div class="share-buttons">
+        <button type="button" id="shareNative" class="secondary-button" hidden>Share</button>
+        <a id="shareWhatsApp" class="secondary-button" href="#" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <a id="shareLinkedIn" class="secondary-button" href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <button type="button" id="copyLink" class="secondary-button">Copy link</button>
+      </div>
+      <span class="share-status" id="shareStatus" role="status" aria-live="polite"></span>
+    </div>
+
+    <details class="privacy-note" id="privacy">
+      <summary>Privacy and your data</summary>
+      <ul>
+        <li>Everything you type, including your photo, stays in your own browser. This website does not upload it to any server.</li>
+        <li>Your draft is autosaved in this browser so you do not lose your work. "Clear form" deletes it.</li>
+        <li>On a shared or public computer, click "Clear form" when you finish.</li>
+        <li>The college list comes from public government data (AISHE, Ministry of Education).</li>
+        <li>If you send feedback through the feedback form, only what you write there is shared with us. Please do not include your phone number or ID details.</li>
+      </ul>
+    </details>
+
+    <p class="footer-links">
+      <a id="feedbackLink" href="#" target="_blank" rel="noopener noreferrer" hidden>Report a problem or suggest a college or school</a>
+    </p>
+
+    <p class="footer-founder">
+      Created by Babu Chellamuthu · Neyveli, Tamil Nadu
+    </p>
+
+    <p class="copyright">
+      © <span id="year"></span> BC CareerCraft.
+      All rights reserved.
+    </p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
